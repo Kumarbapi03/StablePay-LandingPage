@@ -1,4 +1,5 @@
 import MenuIcon from '@/assets/icon-menu.svg'
+import Logo from '@/assets/logo.svg'
 import Button from '@/components/Button'
 
 export const Header = () => {
@@ -9,8 +10,8 @@ export const Header = () => {
         <div className="flex justify-between items-center md:border border-white/15 md:p-2.5 rounded-xl max-w-2xl mx-auto relative">
           <div className="absolute inset-0 backdrop-blur -z-10 hidden md:block"></div>
           <div>
-            <div className="border border-white/15 h-8 w-8 sm:h-10 sm:w-10 rounded-lg inline-flex justify-center items-center">
-              <img src="/favicon.ico" alt="StablePay Logo" className="h-6 w-6 sm:h-8 sm:w-8" />
+            <div className="border border-white/15 h-8 w-8 sm:h-10 sm:w-10 rounded-lg inline-flex justify-center items-center overflow-hidden">
+              <Logo className="h-8 w-8 sm:h-10 sm:w-10" />
             </div>
           </div>
           <div className="hidden md:block">

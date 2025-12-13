@@ -1,3 +1,4 @@
+import Logo from '@/assets/logo.svg'
 import XSocial from '@/assets/social-x.svg'
 import YTSocial from '@/assets/social-youtube.svg'
 
@@ -8,7 +9,7 @@ export const Footer = () => {
         <div className="container px-4 sm:px-6">
           <div className="flex flex-col sm:flex-row sm:flex-wrap lg:flex-nowrap items-center gap-4 sm:gap-5">
             <div className="flex gap-2 items-center justify-center sm:justify-start w-full sm:w-auto lg:flex-1">
-              <img src="/favicon.ico" alt="StablePay Logo" className="h-5 w-5 sm:h-6 sm:w-6" />
+              <Logo className="h-5 w-5 sm:h-6 sm:w-6" />
               <div className="font-medium text-sm sm:text-base">StablePay</div>
             </div>
             <nav className="flex flex-wrap justify-center gap-x-4 gap-y-2 sm:gap-4 w-full sm:w-auto lg:flex-1 lg:justify-center">
