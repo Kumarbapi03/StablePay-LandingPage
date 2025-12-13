@@ -9,9 +9,7 @@ export const Footer = () => {
         <div className="container px-4 sm:px-6">
           <div className="flex flex-col sm:flex-row sm:flex-wrap lg:flex-nowrap items-center gap-4 sm:gap-5">
             <div className="flex gap-2 items-center justify-center sm:justify-start w-full sm:w-auto lg:flex-1">
-              <div className="h-5 w-5 sm:h-6 sm:w-6 flex-shrink-0">
-                <Logo className="h-full w-full" />
-              </div>
+              <Logo className="h-4 w-4 sm:h-5 sm:w-5 flex-shrink-0" />
               <div className="font-medium text-sm sm:text-base">StablePay</div>
             </div>
             <nav className="flex flex-wrap justify-center gap-x-4 gap-y-2 sm:gap-4 w-full sm:w-auto lg:flex-1 lg:justify-center">
