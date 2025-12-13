@@ -10,7 +10,7 @@ export const Header = () => {
         <div className="flex justify-between items-center md:border border-white/15 md:p-2.5 rounded-xl max-w-2xl mx-auto relative">
           <div className="absolute inset-0 backdrop-blur -z-10 hidden md:block"></div>
           <div>
-            <div className="border border-white/15 h-8 w-8 sm:h-10 sm:w-10 rounded-lg inline-flex justify-center items-center overflow-hidden">
+            <div className="h-8 w-8 sm:h-10 sm:w-10 inline-flex justify-center items-center">
               <Logo className="h-8 w-8 sm:h-10 sm:w-10" />
             </div>
           </div>
